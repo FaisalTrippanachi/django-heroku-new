@@ -5,5 +5,6 @@ urlpatterns = [
     # path('admin/', admin.site.urls),
     # path('',include('my_app.urls'))
     path('',views.testfun,name="home"),
-    path('index',views.fnhome,name="index")
+    path('index',views.fnhome,name="index"),
+    path('form',views.fnForm,name="form")
 ]
